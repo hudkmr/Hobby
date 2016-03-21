@@ -42,7 +42,7 @@ int main(void)
    USART_Write("armprogramming.com UART1 Example");
 while(1)
   {
-	USART_Yaz("armprogramming.com");
+	USART_Write("armprogramming.com");
   }
 }
 // ----------------------------------------------------------------------------
